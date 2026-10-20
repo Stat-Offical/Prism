@@ -24,13 +24,33 @@
 ## 설치와 환경 설정
 
 - Python 3.10 이상 필요
-- 아래 명령은 macOS·Python 3.12 기준, 프로젝트 폴더에서 실행
+- 아래 명령은 Python 3.12 설치 기준, 프로젝트 폴더에서 실행
+
+### macOS
 
 ```bash
 python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 cp -n .env.example .env
+```
+
+### Windows (PowerShell)
+
+Python 3.12와 Python Launcher(`py`) 설치 후 실행.
+
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+if (-not (Test-Path .env)) { Copy-Item .env.example .env }
+```
+
+`Activate.ps1` 실행이 차단될 경우, 현재 PowerShell 세션에만 실행 정책 적용 후 재활성화.
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+.\.venv\Scripts\Activate.ps1
 ```
 
 `.env.example`은 유지하고, 복사한 `.env`에 본인 설정 입력.
@@ -44,11 +64,11 @@ cp -n .env.example .env
 | `RSS_PUBLISHER` | RSS 발행기관명 |
 | `RSS_COUNTRY` | RSS 발행기관의 국가 |
 
-## 실행
+## 실행 (macOS·Windows 공통)
 
-뉴스 검색 → 본문 수집 → 웹 서버 실행 순서.
+가상환경 활성화 상태에서 뉴스 검색 → 본문 수집 → 웹 서버 실행 순서.
 
-```bash
+```shell
 python collect_prism_news.py --limit 10 --per-release 30
 python fetch_bodies.py --limit 24
 python -m http.server 8000 --bind 127.0.0.1 --directory web
@@ -58,7 +78,7 @@ python -m http.server 8000 --bind 127.0.0.1 --directory web
 
 저장된 결과로 웹 데이터만 다시 생성할 경우:
 
-```bash
+```shell
 python build_prism_data.py
 ```
 
