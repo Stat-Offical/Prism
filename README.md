@@ -43,7 +43,7 @@ Python 의존성은 `requirements.txt`에서 관리합니다. 현재 웹페이�
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | <img src="https://github.com/tellgeniewish.png" width="80"/> | <img src="https://github.com/eunnbiin.png" width="80"/> | <img src="https://github.com/baezzangKK.png" width="80"/> | <img src="https://github.com/espritreve.png" width="80"/> | <img src="https://github.com/minminkim29.png" width="80"/> | <img src="https://github.com/jhsonhui.png" width="80"/> |
 | [@tellgeniewish](https://github.com/tellgeniewish) | [@eunnbiin](https://github.com/eunnbiin) | [@baezzangKK](https://github.com/baezzangKK) | [@espritreve](https://github.com/espritreve) | [@minminkim29](https://github.com/minminkim29) | [@jhsonhui](https://github.com/jhsonhui) |
-| 팀장 · 프로젝트 총괄·기획·개발 | 핵심 기능 기획·개발 | 프로젝트 기획 | 프로젝트 기획 | 프로젝트 기획 | 프로젝트 기획 |
+| 팀장 · 프로젝트 총괄·기획·개발 | 프로젝트 기획·핵심 기능 개발 | 프로젝트 기획 | 프로젝트 기획 | 프로젝트 기획 | 프로젝트 기획 |
 
 ## 🗃️ 활용 데이터
 
