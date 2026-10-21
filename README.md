@@ -38,7 +38,6 @@ Prism은 국가데이터처의 통계 보도자료를 기준으로 관련 뉴스
 Python 의존성은 `requirements.txt`에서 관리합니다. 현재 웹페이지는 HTML·CSS·JavaScript로 구성되어 있으며, Python 스크립트가 생성한 `web/data.js`를 이용해 뉴스를 표시합니다.
 
 ## 👥 담당자
-## 👥 담당자
 
 | 지니(김현진) | 조은빈 | @baezzangKK | @espritreve | @minminkim29 | @jhsonhui |
 |:---:|:---:|:---:|:---:|:---:|:---:|
