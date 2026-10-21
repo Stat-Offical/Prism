@@ -135,8 +135,8 @@ Prism/
 │
 ├── data/
 │   └── query_comparison_temp.html  # 검색어별 결과 비교용 임시 보고서
-│   ├── latest_prism_news.txt        # [생성] 최신 수집 폴더명
-│   └── news_<실행시각>/             # [생성] 수집 실행별 결과
+│   ├── latest_prism_news.txt       # [생성] 최신 수집 폴더명
+│   └── news_<실행시각>/            # [생성] 수집 실행별 결과
 │       ├── rss_titles.json         # RSS 제목 목록
 │       ├── articles.jsonl          # 중복을 정리한 기사 목록
 │       ├── pipeline_log.json       # 수집·본문 추출·웹 데이터 생성 로그
