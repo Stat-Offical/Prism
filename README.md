@@ -6,8 +6,6 @@ Prism은 국가데이터처의 통계 보도자료를 기준으로 관련 뉴스
 
 이용자는 뉴스 목록에서 관심 있는 기사를 선택하고, 기사 상세 화면과 연관 기사 목록을 통해 동일한 통계 주제가 언론에서 어떻게 다뤄지는지 살펴볼 수 있습니다.
 
-**[🌐 Prism GitHub 저장소 바로가기](https://github.com/Stat-Official/Prism)**
-
 ## 📌 프로젝트 개요
 
 | 항목 | 내용 |
@@ -40,12 +38,13 @@ Prism은 국가데이터처의 통계 보도자료를 기준으로 관련 뉴스
 Python 의존성은 `requirements.txt`에서 관리합니다. 현재 웹페이지는 HTML·CSS·JavaScript로 구성되어 있으며, Python 스크립트가 생성한 `web/data.js`를 이용해 뉴스를 표시합니다.
 
 ## 👥 담당자
+## 👥 담당자
 
-| 지니(김현진) |
-|:----------------:|
-| <img src="https://github.com/tellgeniewish.png" width="100"/> |
-| [@tellgeniewish](https://github.com/tellgeniewish) |
-| 팀장 · 프로젝트 총괄·기획·개발 |
+| 지니(김현진) | 조은빈 | @baezzangKK | @espritreve | @minminkim29 | @jhsonhui |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| <img src="https://github.com/tellgeniewish.png" width="80"/> | <img src="https://github.com/eunnbiin.png" width="80"/> | <img src="https://github.com/baezzangKK.png" width="80"/> | <img src="https://github.com/espritreve.png" width="80"/> | <img src="https://github.com/minminkim29.png" width="80"/> | <img src="https://github.com/jhsonhui.png" width="80"/> |
+| [@tellgeniewish](https://github.com/tellgeniewish) | [@eunnbiin](https://github.com/eunnbiin) | [@baezzangKK](https://github.com/baezzangKK) | [@espritreve](https://github.com/espritreve) | [@minminkim29](https://github.com/minminkim29) | [@jhsonhui](https://github.com/jhsonhui) |
+| 팀장 · 프로젝트 총괄·기획·개발 | 핵심 기능 기획·개발 | 프로젝트 기획 | 프로젝트 기획 | 프로젝트 기획 | 프로젝트 기획 |
 
 ## 🗃️ 활용 데이터
 
